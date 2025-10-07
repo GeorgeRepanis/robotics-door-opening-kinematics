@@ -1,1 +1,2 @@
-# robotics-door-opening-kinematics
+# Robotics-door-opening-kinematics
+Work-in-progress robotics project modeling and simulating a door-opening task with three reference frames {0}, {D}, {H}. The handle’s position is planned with time-scaled quintic polynomials (T=5 s) for smooth velocity/acceleration, while the {H} frame orientation uses unit quaternions derived from rotation matrices. Includes 3D visualization/animation of the door and frames, handle trajectory plots, and quaternion evolution over time. Next steps: parameter tuning, constraints, and controller integration.
